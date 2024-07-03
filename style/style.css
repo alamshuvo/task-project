@@ -28,7 +28,7 @@
       rgba(0, 193, 157, 0) -25.412%,
       rgba(2, 0, 67, 0.47) 107.111%
     ),
-    url("/asset/bgbanner.jpeg");
+    url("./asset/bgbanner.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgb(199, 219, 229);
@@ -43,7 +43,7 @@
 
 .appoinmentbackground {
   background: radial-gradient(647.71% 142.52% at 98% 78%,rgb(2, 0, 67),rgba(2, 0, 67, 0.3) 100%),
-    url("/asset/Rectangle32.png");
+    url("./asset/Rectangle32.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgb(199, 219, 229);
