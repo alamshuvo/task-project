@@ -13,37 +13,114 @@
     <!-- tailwind cdn  -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- font awsome cdn  -->
-    <script src="https://kit.fontawesome.com/47450635fc.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/47450635fc.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
-  <body>
+  <body class="font-inter">
     <!-- header area added -->
-    <header>
-      <nav class="flex justify-between items-center container py-4 navigation">
-        <div class="navbar bg-base-100">
-          <div class="navbar-start">
-            
-            <img src="/asset/logo dark.png" alt="">
-          </div>
-          <div class="navbar-center hidden lg:flex">
-            <ul class="menu menu-horizontal px-1 text-textheading">
-              <li><a>Home</a></li>
-              <li><a>Services</a></li>
-              <li><a>Blog</a></li>
-              <li><a>About us</a></li>
-            </ul>
-          </div>
-          <div class="navbar-end ">
-              <button class="btn border border-textheading" >Appointment
-                <img src="/asset/Arrow 1.png" alt="">
+    <section class="fullwidthbackground">
+      <header>
+        <nav
+          class="flex justify-between items-center container py-4 navigation"
+        >
+          <div class="navbar">
+            <div class="navbar-start">
+              <img src="/asset/logodark.png" alt="" />
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1 text-textheading">
+                <li><a>Home</a></li>
+                <li><a>Services</a></li>
+                <li><a>Blog</a></li>
+                <li><a>About us</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+              <button class="btn border border-textheading">
+                Appointment
+                <img src="/asset/Arrow1.png" alt="" />
               </button>
-            
+            </div>
+          </div>
+        </nav>
+      </header>
+      <!-- banner section -->
+      <section class="container pb-5 pt-2">
+        <div>
+          <img class="w-full bg-opacity-0" src="/asset/Rectangle5.png" alt="" />
+        </div>
+      </section>
+    </section>
+    <!-- main section added -->
+    <main class="bg-[#FBFBFB] ">
+      <section class="container ">
+        <div class="pb-8">
+          <div class=" text-center pt-4">
+            <h1 class="lg:text-[48px] lg:w-[500px] mx-auto lg:-mb-[100px] font-bold text-textheading  ">Comprehensive Care for Every Patient</h1>
+          </div>
+          <div class="flex lg:flex-row flex-col justify-between items-center lg:items-end ">
+            <!-- first div -->
+            <div
+              class="w-[216px] h-[312px] bg-[#FBFBFB] rounded-2xl border-1 border-[#020043] "
+            >
+              <div class="p-5 text-textheading">
+                <h2 class="text-[40px] font-bold">90%</h2>
+                <p>Patient satisfaction rate, reflecting our commitment.</p>
+              </div>
+              <div class="flex justify-center items-center">
+                <img src="./asset/statics.png" alt="" />
+              </div>
+            </div>
+            <!-- second div -->
+            <div class="w-[216px] h-[190px] border-1 border-[#020043] bg-[#FFFFF5] rounded-2xl">
+              <div class="p-2 text-textheading">
+                <h2 class="text-[40px] font-bold">500+</h2>
+                <p>Board-certified doctors</p>
+              </div>
+              <div class="flex justify-end items-center">
+                <img src="./asset/contract.png" alt="" />
+              </div>
+            </div>
+
+            <!-- third div -->
+            <div class="w-[216px] h-[162px] border-1 border-[#020043] bg-[#FBFBFB] p-2">
+              <div class="flex gap-5">
+                <h2 class="text-[40px]">4.8</h2>
+                <img src="./asset/fi-sr-star.png" alt="" />
+              </div>
+              <p>Over 20,000 Patient</p>
+              <div class="mt-4">
+                <img src="/asset/Group7.png" alt="" />
+              </div>
+            </div>
+            <!-- fourth div -->
+            <div class="w-[216px] h-[190px] border-1 border-[#020043] bg-[#FFFFF5] rounded-2xl">
+              <div class="p-1 text-textheading">
+                <h2 class="text-[40px] font-bold">$5000</h2>
+                <p>Money spend for poor patient</p>
+              </div>
+              <div class="flex justify-end items-center">
+                <img src="./asset/Group.png" alt="" />
+              </div>
+            </div>
+            <!-- five div -->
+            <div
+            class="w-[216px] h-[312px] border-1 border-[#020043] bg-[#FBFBFB] rounded-2xl "
+          >
+            <div class="p-5 text-textheading">
+              <h2 class="text-[40px] font-bold">50+</h2>
+              <p>Free lession video 
+                for patient</p>
+            </div>
+            <div class="flex justify-center items-center">
+              <img src="./asset/Group1.png" alt="" />
+            </div>
+          </div>
           </div>
         </div>
-      </nav>
-    </header>
-    <!-- main section added -->
-    <main>
-        
+      </section>
     </main>
     <footer></footer>
   </body>

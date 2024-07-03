@@ -15,10 +15,28 @@
   }
 .container{
     max-width: 1160px;
-    width: 85%;
     margin:0 auto;
    
 }
 .navigation{
    color: var(--text-color-heading);
+}
+
+/* banner section added */
+.fullwidthbackground {
+    background: linear-gradient(179.57deg, rgba(0, 193, 157, 0) -25.412%, rgba(2, 0, 67, 0.47) 107.111%), 
+                url("/asset/bgbanner.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(199, 219, 229); /* This will be overridden by the background shorthand */
+}
+/* .bannerimg{
+    background: linear-gradient(179.57deg, rgba(0, 193, 157, 0) -25.412%,rgba(2, 0, 67, 0.47) 107.111%)
+} */
+.bannerimg {
+   
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    background-size: cover;
 }
