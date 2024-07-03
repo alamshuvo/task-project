@@ -1,42 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Inter", sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
 /* common shared css style  */
 :root {
-    --btn-color: #FFC637;
-    --text-color-heading: #020043;
-    --font-size: 16px;
-    --colorful-text: #4D4C7B;
-    --sectiocolor:#FFFFF5;
-  }
-.container{
-    max-width: 1160px;
-    margin:0 auto;
-   
+  --btn-color: #ffc637;
+  --text-color-heading: #020043;
+  --font-size: 16px;
+  --colorful-text: #4d4c7b;
+  --sectiocolor: #fffff5;
 }
-.navigation{
-   color: var(--text-color-heading);
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+.navigation {
+  color: var(--text-color-heading);
 }
 
 /* banner section added */
 .fullwidthbackground {
-    background: linear-gradient(179.57deg, rgba(0, 193, 157, 0) -25.412%, rgba(2, 0, 67, 0.47) 107.111%), 
-                url("/asset/bgbanner.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: rgb(199, 219, 229); /* This will be overridden by the background shorthand */
+  background: linear-gradient(
+      179.57deg,
+      rgba(0, 193, 157, 0) -25.412%,
+      rgba(2, 0, 67, 0.47) 107.111%
+    ),
+    url("/asset/bgbanner.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(199, 219, 229);
 }
-/* .bannerimg{
-    background: linear-gradient(179.57deg, rgba(0, 193, 157, 0) -25.412%,rgba(2, 0, 67, 0.47) 107.111%)
-} */
+
 .bannerimg {
-   
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-    background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  background-size: cover;
+}
+
+.appoinmentbackground {
+  background: radial-gradient(647.71% 142.52% at 98% 78%,rgb(2, 0, 67),rgba(2, 0, 67, 0.3) 100%),
+    url("/asset/Rectangle32.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(199, 219, 229);
 }
