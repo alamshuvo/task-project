@@ -19,3 +19,6 @@
     margin:0 auto;
    
 }
+.navigation{
+   color: var(--text-color-heading);
+}
